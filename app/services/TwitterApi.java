@@ -20,7 +20,6 @@ public class TwitterApi {
 
 	public static TwitterApiTwitt getTwitt(String id_str) {
 		TwitterApiTwitt apiTwitt = null;
-		// TODO : remove !
 		if (id_str.equals("mock")) {
 			Gson gson = new Gson();
 			apiTwitt = gson.fromJson(MockTwitterApi.SAMPLE_TWITT_JSON, TwitterApiTwitt.class);
@@ -36,7 +35,6 @@ public class TwitterApi {
 
 	public static TwitterApiUser getUserProfile(String user_id_str) {
 		TwitterApiUser apiUser = null;
-		// TODO : remove !
 		if (user_id_str.equals("mock")) {
 			Gson gson = new Gson();
 			apiUser = gson.fromJson(MockTwitterApi.SAMPLE_USER_PROFILE_JSON, TwitterApiUser.class);
@@ -52,7 +50,6 @@ public class TwitterApi {
 
 	public static TwitterApiTwitt[] getTimeline(String user_id_str, Integer count, String maxId) {
 		TwitterApiTwitt[] apiTimeline = null;
-		// TODO : remove !
 		if (user_id_str.equals("mock")) {
 			Gson gson = new Gson();
 			apiTimeline = gson.fromJson(MockTwitterApi.SAMPLE_TIMELINE_10_JSON, TwitterApiTwitt[].class);

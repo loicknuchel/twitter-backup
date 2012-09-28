@@ -19,7 +19,7 @@ import play.db.ebean.Model;
 public class Mention extends Model {
 	private static final long serialVersionUID = 1L;
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	public Long id;
 	@Required
 	public String screenName;
