@@ -1,0 +1,23 @@
+@(title: String, twitts: List[Twitt])
+
+@includes.main("Welcome to Play 2.0") {
+	@includes.header("timeline")
+	
+	<div class="container">
+	    <div class="row">
+	    	<a href="load/twitts" class="btn">load twitts</a>
+	    </div>
+	    
+	    <div class="row">
+	        <div class="span12">
+	            @for(twitt <- twitts) {
+					@templates.twitt(twitt)
+				}
+	        </div>
+	    </div>
+	
+	    @includes.footer()
+	</div> <!-- /container -->
+	
+	@includes.scripts()
+}

@@ -1,0 +1,19 @@
+@(twitt: Twitt)
+
+<div class="twitt">
+	<span class="target" id="id@twitt.id"></span>
+	<div class="avatar">
+		<a href="http://twitter.com/@twitt.user.screenName" target="twitter"><img src="@twitt.user.profileImageUrl" alt="" width="48" height="48"></a>
+	</div>
+	<div class="text">
+		<strong class="screen_name"><a href="http://twitter.com/@twitt.user.screenName" target="twitter">@twitt.user.screenName</a></strong>
+		<span class="real_name">@twitt.user.name</span>
+		<br/>
+		@twitt.text
+		<p class="info">
+			<a rel="bookmark" href="http://twitter.com/@twitt.user.screenName/status/@twitt.id" target="twitter">@twitt.createdAt</a>
+			<a href="#id@twitt.id" rel="bookmark">#</a>
+			<a href="https://twitter.com/@twitt.user.screenName/status/@twitt.id" target="twitter">voir sur twitter</a>
+		</p>
+	</div>
+</div>

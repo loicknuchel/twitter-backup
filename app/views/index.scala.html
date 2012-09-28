@@ -1,0 +1,38 @@
+@(title: String)
+
+@includes.main("Welcome to Play 2.0") {
+	@includes.header("home")
+	
+	<div class="container">
+	
+	    <!-- Main hero unit for a primary marketing message or call to action -->
+	    <div class="hero-unit">
+	        <h1>@title</h1>
+	        <p>This is a starting template for Play 2 framework with twitter bootstrap and some basic samples.</p>
+	        <p><a class="btn btn-primary btn-large"><i class="icon-search icon-white"></i> Learn more &raquo;</a></p>
+	    </div>
+	
+	    <!-- Example row of columns -->
+	    <div class="row">
+	        <div class="span4">
+	            <h2>Heading</h2>
+	            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+	            <p><a class="btn" href="#">View details &raquo;</a></p>
+	        </div>
+	        <div class="span4">
+	            <h2>Welcome to Play 2</h2>
+	            <p>See play 2 welcome page. It's the starting page for a play 2 project with some tips and some very useful links.</p>
+	            <p><a class="btn btn-success" href="welcome">Welcome page &raquo;</a></p>
+	        </div>
+	        <div class="span4">
+	            <h2>Play sample</h2>
+	            <p>Here you can see the sample Play application implemented. It is a simple task list app which is related to a database and manage a simple object with CRUD actions.</p>
+	            <p><a class="btn btn-info" href="sample">View details &raquo;</a></p>
+	       </div>
+	    </div>
+	
+	    @includes.footer()
+	</div> <!-- /container -->
+	
+	@includes.scripts()
+}

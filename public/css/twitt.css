@@ -1,0 +1,72 @@
+.twitt {
+  position: relative;
+  width: 600px;
+  margin: auto;
+  color: #444;
+  background-color: #FAFAFA;
+  /*-webkit-border-radius: 0;
+  -webkit-border-top-right-radius: 8px;
+  -webkit-border-top-left-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px 8px;
+  border-top-right-radius: 8px 8px;
+  border-bottom-right-radius: 8px 8px;
+  border-bottom-left-radius: 8px 8px;*/
+  padding: .5em;
+  line-height: 19px;
+  border-bottom: 1px solid #E8E8E8;
+}
+.twitt .target {
+  position: absolute;
+  top: -70px;
+}
+.twitt b {
+  display: inline-block;
+  zoom: 1;
+  vertical-align: text-top;
+  background-image: url(../img/twitter_web_sprite_icons.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.twitt b.retwitt {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-position: 0 -450px;
+}
+.twitt .avatar {
+  float: left;
+  margin-top: 4px;
+  margin-right: 3px;
+}
+.twitt .text {
+  margin-left: 55px;
+  font-size: 15px;
+}
+.twitt .screen_name :link, .twitt .screen_name :visited {
+  color: black;
+  text-decoration: none;
+}
+.twitt .real_name {
+  color: #999;
+  font-size: 12px;
+}
+.twitt .info {
+  font-size: 11px;
+  color: #999;
+  display: table-cell;
+}
+.twitt .info :link, .twitt .info :visited {
+  color: #999;
+  text-decoration: none;
+}
+.twitt .info :hover {
+  text-decoration: underline;
+}
+
+
+
