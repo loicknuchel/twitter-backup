@@ -1,4 +1,6 @@
-This is your new Play 2.0 application
+Backup and visualize your twitts
 =====================================
 
-This file will be packaged with your application, when using `play dist`.
+This application aims to provide a better accessibility to your twitts and conversations than twitter website.
+It allow you to filter your twitts depending on many things and easily navigate to a particular date or twitt.
+Moreover, it backup all your twitts in your database.
